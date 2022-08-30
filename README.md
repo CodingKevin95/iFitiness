@@ -5,8 +5,8 @@
 iFitness allows the user to search either a specific exercise or a category of exercises that targets a specific body part. Once the user select/search the desire body part/exercise, cards that are related to what as searched will appear at the bottom half of the home page. Another functionality of this application allows the user to create, view, edit and delete logs of the exercises they completed. This will allow the user to compare their previous exercise numbers with their current exercise.
 
 ## API Endpoints Doc
-**Get all exercises**
-https://fierce-lake-31754.herokuapp.com/posts
+**Get all exercises**<br />
+https://fierce-lake-31754.herokuapp.com/posts<br/>
 <img width="342" alt="Screen Shot 2022-08-30 at 4 44 31 PM" src="https://user-images.githubusercontent.com/86539931/187539679-cd8b8e7f-4806-41a6-8584-2ead1bc2d4fd.png">
 
 
