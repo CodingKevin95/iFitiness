@@ -4,6 +4,19 @@
 ## Discription
 iFitness allows the user to search either a specific exercise or a category of exercises that targets a specific body part. Once the user select/search the desire body part/exercise, cards that are related to what as searched will appear at the bottom half of the home page. Another functionality of this application allows the user to create, view, edit and delete logs of the exercises they completed. This will allow the user to compare their previous exercise numbers with their current exercise.
 
+## MVP
+- Look up exercise
+- Show how to perform specific exercises
+- Use CRUD for organizing exercise log
+- Create hambuger for mobile devices
+
+## MVP
+- Create users
+- Create login
+- Make a filter for exercise logs
+- Create a component that allows comparison of the logs
+- Display a chart to show growth
+
 ## Features
 - Displays a view of exercise and how to perform them
 - Allow users to create, view, edit and delete exercise logs
