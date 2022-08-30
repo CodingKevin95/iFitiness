@@ -13,6 +13,15 @@ iFitness allows the user to search either a specific exercise or a category of e
 https://fierce-lake-31754.herokuapp.com/posts<br/>
 <img width="342" alt="Screen Shot 2022-08-30 at 4 44 31 PM" src="https://user-images.githubusercontent.com/86539931/187539679-cd8b8e7f-4806-41a6-8584-2ead1bc2d4fd.png">
 
+**Create a exercise log exercises**<br />
+https://fierce-lake-31754.herokuapp.com/create
+
+**Update a exercise log exercises**<br />
+https://fierce-lake-31754.herokuapp.com/create/:id
+
+**Delete a exercise log exercises**<br />
+https://fierce-lake-31754.herokuapp.com/delete/:id
+
 ## WireFrames
 **The Home page view from desktop**
 <img width="800" alt="Screen Shot 2022-08-30 at 3 24 15 PM" src="https://user-images.githubusercontent.com/86539931/187526179-5549a97d-9232-4764-a25c-64cc7378b510.png">
