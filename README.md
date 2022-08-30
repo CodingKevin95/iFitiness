@@ -1,5 +1,10 @@
 [LIVE LINK](https://fierce-lake-31754.herokuapp.com/)
 
+# iFitness
+## Discription
+iFitness allows the user to search either a specific exercise or a category of exercises that targets a specific body part. Once the user select/search the desire body part/exercise, cards that are related to what as searched will appear at the bottom half of the home page. Another functionality of this application allows the user to create, view, edit and delete logs of the exercises they completed. This will allow the user to compare their previous exercise numbers with their current exercise.![image](https://user-images.githubusercontent.com/86539931/187538796-728dbb17-38e1-479a-9569-5799cb8ab629.png)
+
+
 ## WireFrames
 **The Home page view from desktop**
 <img width="800" alt="Screen Shot 2022-08-30 at 3 24 15 PM" src="https://user-images.githubusercontent.com/86539931/187526179-5549a97d-9232-4764-a25c-64cc7378b510.png">
