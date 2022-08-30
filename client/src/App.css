@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.exercise-card:hover,
+.bodyPart-card:hover 
+{
+  transform: scale(1.05, 1.05);
+  transition: .3s ease-in-out;
+}
+
+.exercise-card{
+  pointer-events: none;
+}
+
+.search-btn{
+  margin-left: 1rem;
+}
+
+.boxes {
+  height: auto;
+  width: 90vw;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  border: 1px black solid;
+}
+
+.buttonLabel{
+  background-image: linear-gradient(to bottom, #f00f47b4, #f00f47bb, #f00f4789, #f00f4774, #f00f475a,#fffff036 ,#fffff05a);
+  color: black !important;
+  border-radius: 20px !important;
+  border: #f00f47b4 solid 1px;
+  width: 7rem;
+  padding: .5rem;
+  margin: 1rem;
+}
+
+.exercise-card{
+  border: 1px solid black;
+  width: 25rem;
+}

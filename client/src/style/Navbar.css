@@ -1,0 +1,130 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100vw;
+    height: 4.2rem;
+    position: sticky;
+    z-index: 5;
+    background-image: linear-gradient(to right bottom, #f00f47, #f00f47bb, #f00f4789, #f00f473d, #fffff07f ,#fffff05a);}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    z-index: 5;
+    color: ivory;
+}
+
+.hamburger {
+    display: none;
+    padding: 1rem;
+}
+
+.mobile-menu {
+    display: none
+}
+
+.nav-menu{
+    display:flex
+}
+
+.nav-menu li {
+    padding: 1rem;
+}
+
+.nav-menu li a {
+    color: #a20028;
+    font-size: 1.3rem;
+}
+
+.nav-menu li a:hover {
+    color: #ff0040a4;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .hamburger{
+        display: block;
+        z-index: 5;
+     }
+
+    .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #f00f47b4, #f00f47bb, #f00f4789, #f00f4774, #f00f475a,#fffff07f ,#fffff05a);
+        top: 0;
+        right: -100%;
+        transition: .9s ease-in-out;
+        box-shadow: -1.5px 1px rgba(0, 0, 0, 0.334);
+    }
+
+    .active {
+        right: 0;
+
+    }
+
+    .nav-menu li {
+        margin: .5rem;
+    }
+
+    .nav-menu li a {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .nav-menu li:hover {
+        width: 200px;
+        transition: .5s ease-in-out;
+        color: #a20028;
+    }
+
+    .navbar .slide-right {
+        margin-left: 43%;
+        transition: .8s ease-in-out;
+    }
+
+    .container {
+        position: fixed;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        background-image: linear-gradient(to right bottom, #f00f47, #f00f47bb, #f00f4789, #f00f473d, #fffff07f ,#fffff05a);
+        position: fixed;
+        top:0;
+    }
+
+    ul.nav-menu{
+        position: fixed;
+    }
+
+}
+
+@media screen and (max-width: 495px) {
+    .nav-menu{
+        width: 75%;
+        transition: .8s ease-in-out;
+    }
+
+    .navbar .slide-right {
+        margin-left: 30%;
+    }
+}

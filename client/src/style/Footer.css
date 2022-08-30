@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footerGap {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 495px) {
+    .footerGap {
+        width: 60%;
+    }
+}

@@ -1,0 +1,37 @@
+.CreatePost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 90vw;
+    margin-top: 5rem;
+    background-color: ivory;
+    box-shadow: 5px 6px #88888881;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+.createPost {
+    margin-bottom: 1rem;
+}
+
+.hello {
+    width: 100vw;
+}
+
+.wholeCreate{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
