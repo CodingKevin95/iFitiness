@@ -2,7 +2,8 @@
 
 # iFitness
 ## Discription
-iFitness allows the user to search either a specific exercise or a category of exercises that targets a specific body part. Once the user select/search the desire body part/exercise, cards that are related to what as searched will appear at the bottom half of the home page. Another functionality of this application allows the user to create, view, edit and delete logs of the exercises they completed. This will allow the user to compare their previous exercise numbers with their current exercise.![image](https://user-images.githubusercontent.com/86539931/187538796-728dbb17-38e1-479a-9569-5799cb8ab629.png)
+iFitness allows the user to search either a specific exercise or a category of exercises that targets a specific body part. Once the user select/search the desire body part/exercise, cards that are related to what as searched will appear at the bottom half of the home page. Another functionality of this application allows the user to create, view, edit and delete logs of the exercises they completed. This will allow the user to compare their previous exercise numbers with their current exercise.
+
 
 
 ## WireFrames
