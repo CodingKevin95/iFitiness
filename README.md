@@ -24,7 +24,6 @@ iFitness allows the user to search either a specific exercise or a category of e
 ## API Endpoints Doc
 **Get all exercises**<br />
 https://fierce-lake-31754.herokuapp.com/posts<br/>
-<img width="342" alt="Screen Shot 2022-08-30 at 4 44 31 PM" src="https://user-images.githubusercontent.com/86539931/187539679-cd8b8e7f-4806-41a6-8584-2ead1bc2d4fd.png">
 
 **Create a exercise log exercises**<br />
 https://fierce-lake-31754.herokuapp.com/create
