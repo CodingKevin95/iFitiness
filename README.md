@@ -10,7 +10,7 @@ iFitness allows the user to search either a specific exercise or a category of e
 - Use CRUD for organizing exercise log
 - Create hambuger for mobile devices
 
-## MVP
+## Post-MVP
 - Create users
 - Create login
 - Make a filter for exercise logs
